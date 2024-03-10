@@ -1,5 +1,8 @@
 import requests
 
+
+username = "your username"
+
 class pikastats:
     @staticmethod
     def friendlist(username:str):
@@ -77,10 +80,9 @@ class pikastats:
             return None
 
 # Example usage:
-username = "your username"
-print(f"Last seen: {pikastats.last_seen(username)}")
-print(f"Rank: {pikastats.ranks(username)}")
-print(f"Guild name: {pikastats.guild_name(username)}")
-print(f"Guild tag: {pikastats.guild_tag(username)}")
-print(f"Guild owner: {pikastats.guild_owner(username)}")
-print(f"Friend list: {pikastats.friendlist(username)}")
+# print(f"Last seen: {pikastats.last_seen(username)}")
+# print(f"Rank: {pikastats.ranks(username)}")
+# print(f"Guild name: {pikastats.guild_name(username)}")
+# print(f"Guild tag: {pikastats.guild_tag(username)}")
+# print(f"Guild owner: {pikastats.guild_owner(username)}")
+# print(f"Friend list: {pikastats.friendlist(username)}")
